@@ -16,6 +16,23 @@ public class Repositorio<T> implements Iterable<T> {
         return lista.get(indice);
     
     }
+    
+    public void forEach(){
+        for(T t  :  lista){
+            System.out.println(t);
+        }
+    }
+
+    public void recorrerAtras(){
+        Iterator<T> it = this.iterator();
+
+        while(it.hasNext()){
+            System.out.println(it.next());
+
+        }
+
+    }
+
 
 
    @Override
