@@ -3,7 +3,7 @@ package number6;
 import java.util.ArrayList;
 import java.util.List;
 
-public class max<T extends Comparable<T>> implements Comparable<T> {
+public class Max<T extends Comparable<T>> implements Comparable<T> {
 
     List<T> lista = new ArrayList<>();
 
