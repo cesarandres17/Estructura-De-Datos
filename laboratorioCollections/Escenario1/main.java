@@ -1,8 +1,4 @@
-package laboratorioCollections;
-
-
-
-
+package laboratorioCollections.Escenario1;
 
 public class main {
 

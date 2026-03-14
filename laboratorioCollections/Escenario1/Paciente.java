@@ -1,4 +1,4 @@
-package laboratorioCollections;
+package laboratorioCollections.Escenario1;
 
 
 
